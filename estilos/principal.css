@@ -1,0 +1,80 @@
+/* Fondo de pantalla */
+body {
+    margin: 0;
+    padding: 0;
+    background: #d900ffc8;
+    text-align: center;
+}
+
+  /* Tabla */
+  .tabla {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: medium;
+    font-family: Arial, sans-serif;
+    color: black;
+}
+
+table {
+    border-collapse: collapse;
+    border: none;
+    margin-bottom: 20px;
+}
+
+td {
+    padding: 100px;
+    border: none;
+    background-color: transparent;
+    text-align: center;
+}
+
+/* Forma de la imagen lado derecho */
+.contenedor {
+    position: relative;
+}
+
+.imagen-derecha {
+    position: absolute;
+    top: 50%;
+    right: 15%;
+    transform: translateY(10%);
+    width: 100px; /* Tamaño predeterminado */
+    height: auto; /* La altura se ajusta automáticamente para mantener la proporción */
+}
+
+/* Forma de la imagen lado izquierdo */
+.imagen-izquierdo {
+    position: absolute;
+    top: 10%;
+    right: 69%;
+    transform: translateY(10%);
+    width: 200px; /* Tamaño predeterminado */
+    height: 100px; /* La altura se ajusta automáticamente para mantener la proporción */
+}
+
+/* Botton */  
+.center {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .custom-button {
+    background-color: rgb(16, 235, 158);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+    
+  }
+
+  .center-princ {
+    text-align: center;
+    margin-top: -100px;
+}
+
+  
