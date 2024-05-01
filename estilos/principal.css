@@ -2,7 +2,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: #d900ffc8;
+    background: #05f173;
     text-align: center;
 }
 
@@ -61,8 +61,8 @@ td {
     margin-top: 20px;
   }
   .custom-button {
-    background-color: rgb(16, 235, 158);
-    border: none;
+    background-color: rgb(236, 12, 12);
+    border-radius: 20px;
     outline: none;
     cursor: pointer;
     padding: 10px 20px;
